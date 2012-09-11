@@ -1,6 +1,6 @@
 This is a port for Postgresql.
 
-Import test-postgresql.sql to Postgresql. Then edit connect.php and you are ready to go.
+Import test.sql to Postgresql. Then edit connect.php and you are ready to go.
 
 License: MIT.
 
