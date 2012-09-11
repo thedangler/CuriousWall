@@ -1,4 +1,6 @@
-Import test.sql to MySQL. Then edit connect.php and you are ready to go.
+This is a port for Postgresql.
+
+Import test-postgresql.sql to Postgresql. Then edit connect.php and you are ready to go.
 
 License: MIT.
 
