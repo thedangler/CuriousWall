@@ -7,8 +7,14 @@ $db_user    = 'test';
 $db_pass    = 'test';
 $db_name    = 'test';
 
-$db = new PDO("pgsql:host=$db_host;dbname=$db_name", $db_user, $db_pass)
-);
+try {
+
+  $db = new PDO("pgsql:host=$db_host;dbname=$db_name", $db_user, $db_pass);
+
+}catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
+}
 
 //mysql_select_db("test") or die(mysql_error());
 
